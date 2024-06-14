@@ -1,0 +1,38 @@
+.flex {
+	display: flex;
+	background-color: #dbf4fe;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-around;
+}
+.flex > div {
+	background-color: #285cf2;
+	color: #c0cae7;
+	flex-basis: 200px;
+	height: 300px;
+	margin: 2px;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+/*Только ширина*/
+@media (min-width: 625px) and (max-width: 831px) {
+	.flex {
+		justify-content: space-around;
+	}
+	.flex > div {
+		flex-basis: 300px;
+	}
+}
+@media (max-width: 624px) {
+	.flex {
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+	.flex > div {
+		width: 100%;
+	}
+}

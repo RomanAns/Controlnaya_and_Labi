@@ -1,0 +1,30 @@
+.mainsheet{
+	list-style-type: none;
+	text-align: center;
+	margin: 100px 0;
+}
+.mainsheet > li {
+	position: relative;
+	width: 200px;
+	display: inline-block;
+	background: lightgrey;
+	cursor: pointer;
+}
+#dropdown > ul {
+	background: inherit;
+	width: inherit;
+	display: block;
+	list-style-type: inherit;
+	padding-left: 0;
+	position: absolute;
+}
+#dropdown > ul > li {
+	display: none;
+}
+#dropdown:hover > ul > li {
+	display: block;
+	background: grey;
+}
+#dropdown:hover {
+	background: grey;
+}

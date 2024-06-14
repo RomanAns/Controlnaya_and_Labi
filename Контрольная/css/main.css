@@ -1,0 +1,52 @@
+/*
+sm - 576px
+md - 768px
+lg - 960px
+xl - 1140px
+xxl - 1320px
+*/
+.bg-primary {
+  background-color: #fbfe92!important
+}
+.bg-secondary {
+  background-color: #c5f990!important
+}
+.bg-custom {
+  background: repeating-linear-gradient(45deg, #fbfe92 5%, #fbfe92 10%, #c5f990 10%, #c5f990 15%);
+}
+#header * {
+  padding: 0;
+  margin: 0;
+}
+.mainimage {
+  width: 180px;
+  height: 180px;
+}
+.mheight1 {
+  height: 20px;
+}
+@media (min-width: 576px) { /*sm и больше*/
+.mheight1 {
+  height: 30px;
+}
+}
+@media (min-width: 768px) { /*md и больше*/
+.mheight1 {
+  height: 30px;
+}
+}
+@media (min-width: 960px) { /*lg и больше*/
+.mheight1 {
+  height: 40px;
+}
+}
+@media (min-width: 1140px) { /*xl и больше*/
+.mheight1 {
+  height: 40px;
+}
+}
+@media (min-width: 1320px) { /*xxl и больше*/
+.mheight1 {
+  height: 40px;
+}
+}

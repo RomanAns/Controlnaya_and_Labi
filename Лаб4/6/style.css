@@ -1,0 +1,22 @@
+body > div {
+	font-size: 20px;
+	margin: 75px 200px 75px;
+}
+#a {
+	text-shadow: 20px 20px 0 grey;
+}
+#s {
+	text-shadow: 20px 20px 2px grey;
+}
+#d {
+	text-shadow: 5px 5px 0 red, -5px -5px 0 blue;
+}
+#f {
+	text-shadow: 1px 1px 0 grey;
+}
+#g {
+	text-shadow: -1px -1px 0;
+}
+#h {
+	text-shadow: 0px 0px 5px grey;
+}

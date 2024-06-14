@@ -1,0 +1,19 @@
+.resize #both, #none, #horiz, #vert {
+	border: 1px solid black;
+	height: 80px;
+	width: 300px;
+	margin: 20px;
+	overflow: auto;
+}
+#both {
+	resize: both;
+}
+#none {
+	resize: none;
+}
+#vert {
+	resize: vertical;
+}
+#horiz {
+	resize: horizontal;
+}

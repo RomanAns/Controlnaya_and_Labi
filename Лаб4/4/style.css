@@ -1,0 +1,13 @@
+body > div {
+	border: 1px solid black;
+	width: 200px;
+	padding: 3px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+body > div:hover {
+	white-space: normal;
+	width: 200px;
+	overflow: visible;
+}

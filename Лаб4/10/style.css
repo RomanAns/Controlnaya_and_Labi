@@ -1,0 +1,7 @@
+.columns {
+	border: 1px solid black;
+	columns: auto 3;
+	text-overflow: clip;
+	overflow: auto;
+	resize: horizontal;
+}

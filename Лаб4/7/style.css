@@ -1,0 +1,15 @@
+body > div {
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	margin: 100px;
+}
+#a {
+	box-shadow: 20px 20px 4px grey;
+}
+#s {
+	box-shadow: 20px 20px 4px grey, -20px -20px 4px grey;
+}
+#d {
+	box-shadow: inset 5px 5px 4px grey;
+}

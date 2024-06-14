@@ -1,0 +1,16 @@
+.news > h2 {
+	font-size: 24px;
+	background: #d896ff;
+	color: white;
+	text-align: center;
+	padding: 10px 0 10px;
+	position: fixed;
+	width: 100%;
+}
+.news > p {
+	border: 1px solid black;
+	overflow: scroll;
+	position: absolute;
+	top: 65px;
+	height: 70%;
+}

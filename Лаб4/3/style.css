@@ -1,0 +1,20 @@
+#a {
+	text-decoration-color: blue;
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+}
+#s {
+	text-decoration-color: orange;
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+}
+#d {
+	text-decoration-color: green;
+	text-decoration-line: underline;
+	text-decoration-style: dashed;
+}
+#f {
+	text-decoration-color: red;
+	text-decoration-line: underline;
+	text-decoration-style: double;
+}
